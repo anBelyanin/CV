@@ -1,0 +1,98 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-container {
+    padding-left: 90px;
+    padding-top: 108px;
+    padding-right: 196px;
+    padding-bottom: 107px;
+}
+
+aside {
+    background: #1e2939;
+    color: #e1e2e5;
+    width: 300px;
+}
+
+.contacts-container {
+    padding-top: 35px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.tech-skills-container {
+    padding-top: 35px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.soft-skills-container {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 376px;
+    box-sizing: border-box;
+}
+
+.image {
+    padding-top: 40px;
+}
+
+.contant {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 14px;
+}
+
+.date {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 14px;
+}
+
+.name {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.profession {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 24px;
+}
+
+.telephone {
+    color: #b8b5b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email {
+    color: #b8b5b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.company-name {
+    color: #ff7f29;
+}
+
+.skills-list-content {
+    list-style-type: none;
+}
+
+.skills-list-content::before {
+    color: #e4630e;
+    content: "•";
+    padding-right: 10px;
+    font-weight: 700;
+    
+}
+
+
+
