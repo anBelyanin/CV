@@ -1,98 +1,85 @@
-.main-container {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f5f7fa;
+    padding: 20px;
+    font-family: Montserrat;
+}
+
+.wrapper {
+    background: #ffffff;
     display: flex;
-    flex-direction: row;
 }
 
-.info-container {
-    padding-left: 90px;
-    padding-top: 108px;
-    padding-right: 196px;
-    padding-bottom: 107px;
-}
-
-aside {
+.sidebar {
     background: #1e2939;
-    color: #e1e2e5;
-    width: 300px;
-}
-
-.contacts-container {
-    padding-top: 35px;
-    padding-left: 40px;
-    box-sizing: border-box;
-}
-
-.tech-skills-container {
-    padding-top: 35px;
-    padding-left: 40px;
-    box-sizing: border-box;
-}
-
-.soft-skills-container {
-    padding-top: 35px;
-    padding-left: 40px;
-    padding-bottom: 376px;
-    box-sizing: border-box;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .image {
-    padding-top: 40px;
+    width: 370px;
 }
 
-.contant {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 14px;
+.about-me-container {
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 
-.date {
-    color: #a8a8a8;
-    font-size: 12px;
-    font-weight: 400;
-    padding-top: 14px;
+.contacts-container {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.name {
-    color: #000000;
-    font-size: 45px;
+.contacts-title {
+    font-size: 22px;
     font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
-.profession {
-    color: #000000;
-    font-size: 14px;
-    font-weight: 700;
-    padding-top: 24px;
-}
-
-.telephone {
-    color: #b8b5b5;
+.contacts-link {
     font-size: 14px;
     font-weight: 400;
+    line-height: 24px;
+    color: #b4b1b1;
 }
 
-.email {
-    color: #b8b5b5;
+.contacts-link-type {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.skills-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.skills-item {
     font-size: 14px;
     font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 15px;
 }
 
-.company-name {
-    color: #ff7f29;
+.skills-item-text {
+    color: #ffffff;
 }
-
-.skills-list-content {
-    list-style-type: none;
-}
-
-.skills-list-content::before {
-    color: #e4630e;
-    content: "•";
-    padding-right: 10px;
-    font-weight: 700;
-    
-}
-
-
-

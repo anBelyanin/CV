@@ -5,132 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
     <link rel="stylesheet" href="./design/styles.css">
-    <link rel="stylesheet" href="./design/fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <!-- main container -->
-    <div class="main-container">
-        <div class="sidebar-container">
-            <aside>
-                <img src="./img/IMG_20200617_132520.jpg" alt="My photo" height="400" width="300" class="image">
+    <div class="wrapper">
+        <aside class="sidebar">
+            <img src="./img/IMG_20200617_132520.jpg" alt="My photo" class="image">
 
-                <!-- contacts container -->
-                <div class="contacts-container">
-                    <h3>Contacts</h3>
-                    <div>
-                        <span>C:</span> <a href="tel:+7 (952) 380-53-17" class="telephone">+7 (952) 380-53-17</a>
-                    </div>
-                    <div>
-                        <span>E:</span> <a href="mailto:jominator@gmail.com" class="email">jominator2@gmail.com</a>
-                    </div>
-                </div>
-
-                <!-- tech skills container -->
-                <div class="tech-skills-container">
-                    <h3>Tech Skills</h3>
-                    <ul>
-                        <li class="skills-list-content">Java</li>
-                        <li class="skills-list-content">SQL</li>
-                        <li class="skills-list-content">Git</li>
-                        <li class="skills-list-content">HTML</li>
-                        <li class="skills-list-content">Spring</li>
-                    </ul>
-                </div>
-
-                <!-- soft skills container -->
-                <div class="soft-skills-container">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li class="skills-list-content">Teamwork</li>
-                        <li class="skills-list-content">Agile</li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
-        <div class="info-container">
-            <!-- about me container -->
-            <div>
+            <!-- contacts container -->
+            <div class="contacts-container">
+                <h3 class="contacts-title"> Contacts </h3>
                 <div>
-                    <h2 class="profession">Back-end Developer</h2>
-                    <h1 class="name">Andrew Belyanin</h1>
-        
-                    <p class="contant">Something about me</p>
+                    <span class="contacts-link-type">C:</span> <a class="contacts-link" href="tel:+7 (952) 380-53-17">+7 (952) 380-53-17</a>
+                </div>
+                <div>
+                    <span class="contacts-link-type">E:</span> <a class="contacts-link" href="mailto:jominator@gmail.com">jominator2@gmail.com</a>
+                </div>
+            </div>
+
+            <!-- tech skills container -->
+            <div class="skills-container">
+                <h3 class="skills-title">Tech Skills</h3>
+                <ul>
+                    <li class="skills-item">
+                        <span class="skills-item-text">Java</span>
+                    </li>
+                    <li class="skills-item">
+                        <span class="skills-item-text">SQL</span>
+                    </li>
+                    <li class="skills-item">
+                        <span class="skills-item-text">Git</span>
+                    </li>
+                    <li class="skills-item">
+                        <span class="skills-item-text">HTML</span>
+                        </li>
+                    <li class="skills-item">
+                        <span class="skills-item-text">Spring</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- soft skills container -->
+            <div class="skills-container">
+                <h3 class="skills-title">Soft Skills</h3>
+                <ul>
+                    <li class="skills-item">
+                        <span class="skills-item-text">Teamwork</span>
+                    </li>
+                    <li class="skills-item">
+                        <span class="skills-item-text">Agile</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+
+        <!-- about me container -->
+        <div class="about-me-container">
+            <div>
+                <h2>Back-end Developer</h2>
+                <h1>Andrew Belyanin</h1>
+                    <p>Something about me</p>
+            </div>
+                
+            <!-- my projects container -->
+            <div>
+                <h3>Projects</h3>
+                <ol>
+                    <li>
+                        <a href="https://github.com/anBelyanin/Calculator">Calculator</a>
+                        <span>...........................</span>
+                        <span>[ Java ]</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/anBelyanin/resume">My resume (CV)</a>
+                        <span>..............</span>
+                        <span>[ HTML ]</span>
+                    </li>                   
+                </ol>
+            </div>
+
+            <!-- work experience container -->
+            <div>
+                <h3>Work Experience</h3>
+                <!-- company 1 -->
+                <div>
+                    <h4>Main IT-Specialist | "MRP Alliance"</h4>
+                    <span>Since 24 August 2020 from today</span>
+                    <ul>
+                        <li>Supporting of users</li>
+                        <li>System administration</li>
+                        <li>Powershell scripting</li>
+                        <li>Experience in installation of cryptography funds</li>
+                    </ul>                
+                </div>
+
+                <!-- company 2 -->
+                <div>
+                    <h4>IT-Specialist | "AIS"</h4>
+                    <span>Since 1 Jule 2019 from 17 Jule 2020</span>
+                    <ul>
+                        <li>Supporting of users</li>
+                        <li>System administration</li>
+                        <li>Administration of systems of access control</li>
+                        <li>Intallation and supporting of CCTV systems</li>
+                    </ul>
+                </div>
+
+                <!-- company 3 -->
+                <div>
+                    <h4>Specialist of psyhology and social work | "Gouvernement social centre of family`s help"</h4>
+                    <span>Since 9 January 2018 from 1 Jule 2019</span>
+                    <ul>
+                        <li>Psyhology help to childrens and their parents</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- education container -->
+            <div>
+                <h3>Education</h3>
+
+                <!-- first education container -->
+                <div>
+                    <h4>Saint-Petersbourg institute psychology and social work</h4>
+                    <span>Bachelor of psyhology and social work</span> 
+                    <span><br> September 2012 - June 2016 | Russia</span>
+                    
                 </div>
                 
-                <!-- my projects container -->
+                <!-- second education container -->
                 <div>
-                    <h3>Projects</h3>
-                    <ol class="contant">
-                        <li>
-                            <a href="https://github.com/anBelyanin/Calculator">Calculator</a>
-                            <span>..............</span>
-                            <span>[ Java ]</span>
-                        </li>                   
-                    </ol>
-                </div>
-
-                <!-- work experience container -->
-                <div>
-                    <h3>Work Experience</h3>
-
-                    <!-- company 1 -->
-                    <div>
-                        <h4>Main IT-Specialist | <span class="company-name">"MRP Alliance"</span></h4>
-                        <span class="date">Since 24 August 2020 from today</span>
-                        <ul class="contant">
-                            <li>Supporting of users</li>
-                            <li>System administration</li>
-                            <li>Powershell scripting</li>
-                            <li>Experience in installation of cryptography funds</li>
-                        </ul>
-                        
-                    </div>
-
-                    <!-- company 2 -->
-                    <div>
-                        <h4>IT-Specialist | <span class="company-name">"AIS"</span></h4>
-                        <span class="date">Since 1 Jule 2019 from 17 Jule 2020</span>
-                        <ul class="contant">
-                            <li>Supporting of users</li>
-                            <li>System administration</li>
-                            <li>Administration of systems of access control</li>
-                            <li>Intallation and supporting of CCTV systems</li>
-                        </ul>
-                    </div>
-
-                    <!-- company 3 -->
-                    <div>
-                        <h4>Specialist of psyhology and social work | <span class="company-name">"Gouvernement social centre of family`s help"</span></h4>
-                        <span class="date">Since 9 January 2018 from 1 Jule 2019</span>
-                        <ul class="contant">
-                            <li>Psyhology help to childrens and their parents</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- education container -->
-                <div>
-                    <h3>Education</h3>
-
-                    <!-- first education container -->
-                    <div>
-                        <h4>Saint-Petersbourg institute psychology and social work</h4>
-                        <span>Bachelor of psyhology and social work</span> 
-                        <span class="date"><br> September 2012 - June 2016 | Russia</span>
-                        
-                    </div>
+                    <h4>Saint-Petersbourg university of marine and river fleet named after adminral Makarov</h4>
+                    <span>Master of information systems and technologies</span>
+                    <span><br> September 2019 - Today | Russia</span>
                     
-                    <!-- second education container -->
-                    <div>
-                        <h4>Saint-Petersbourg university of marine and river fleet named after adminral Makarov</h4>
-                        <span>Master of information systems and technologies</span>
-                        <span class="date"><br> September 2019 - Today | Russia</span>
-                        
-                    </div>
-
                 </div>
+
             </div>
         </div>
     </div>
